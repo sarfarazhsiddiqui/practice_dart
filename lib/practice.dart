@@ -123,26 +123,33 @@ void main(){
 //   });
 
 // LOOPS
-var num=2;
-  for (var i=1;i<=10;i++){
-//    print(num*i);
-    print('$num*$i=${num*i}');
-  }
-  var students = ['ahmed','ali','hasan'];
-  print(students[0]);
-  for (var i=0;i<students.length;i++){
-    print(students[i]);
-  }
+// var num=2;
+//   for (var i=1;i<=10;i++){
+// //    print(num*i);
+//     print('$num*$i=${num*i}');
+//   }
+//   var students = ['ahmed','ali','hasan'];
+//   print(students[0]);
+//   for (var i=0;i<students.length;i++){
+//     print(students[i]);
+//   }
+//
+//   var list1 = 1;
+//   while(list1<5){
+//     print(list1);
+//     list1++;
+//   }
+//
+//   var a=1;
+//   do{
+//     print(a);
+//     a++;
+//   }while(a<10);
 
-  var list1 = 1;
-  while(list1<5){
-    print(list1);
-    list1++;
-  }
+// FUNCTIONS
+hello();
+}
 
-  var a=1;
-  do{
-    print(a);
-    a++;
-  }while(a<10);
+dynamic hello(){
+  print('Hello World');
 }
