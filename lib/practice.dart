@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main(){
+//void main(){
   // print('Welcome');
   //
   // stdout.write("Enter your name : ");
@@ -147,9 +147,42 @@ void main(){
 //   }while(a<10);
 
 // FUNCTIONS
-hello();
-}
+//hello();
+//hello(2,3,4);
+//hello(12,15,19);
+//print(hello(12,15,19));
+//}
 
-dynamic hello(){
-  print('Hello World');
+// dynamic hello(){
+// //  print('Hello World');
+//   var num1 = 5;
+//   var num2 = 10;
+//   var sum = num1 + num2;
+//   print(sum);
+// }
+
+// void hello(){
+// //  print('Hello World');
+//   var num1 = 5;
+//   var num2 = 10;
+//   var sum = num1 + num2;
+//   print(sum);
+// }
+
+// void hello(var sub1, var sub2, var sub3){
+//   var total = sub1 + sub2 + sub3;
+//   print(total);
+// }
+
+// dynamic hello(var sub1, var sub2, var sub3){
+//   var total = sub1 + sub2 + sub3;
+//   //print(total);
+//   return total;
+// }
+
+void main() => hello(16,12,19);
+
+dynamic hello(var sub1, var sub2, var sub3){
+  var total = sub1 + sub2 + sub3;
+  print(total);
 }
